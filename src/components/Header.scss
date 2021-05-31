@@ -1,0 +1,9 @@
+.header {
+	padding: 2rem $section-side-padding;
+	display: flex;
+	justify-content: space-between;
+
+	@include up-to-medium {
+		padding: 2rem $section-side-mobile;
+	}
+}
